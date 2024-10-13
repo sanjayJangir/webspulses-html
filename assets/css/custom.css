@@ -1,0 +1,65 @@
+.why-choose-section .list-unstyled li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+/* services-icon css start */
+.services-icon .row > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* header-top css start */
+.header-top {
+  background-color: var(--bs-blue);
+  color: var(--white);
+  padding: 10px 0;
+}
+@media screen and (max-width: 991.72px) {
+  .header-top {
+    display: none;
+  }
+}
+.header-top ul.left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header-top ul.left-side li:not(:last-child) {
+  margin-right: 30px;
+}
+.header-top ul.left-side li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-top .right-side {
+  text-align: right;
+}
+.header-top .right-side ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header-top .right-side ul li a {
+  color: #fff;
+  border-color: #fff;
+  border-radius: 50%;
+  border-width: 1px;
+}
+
+a.navbar-brand img{
+    max-width: 280px;
+}
+.header-top .right-side ul li a i {
+  padding-top: 2px;
+}/*# sourceMappingURL=custom.css.map */
