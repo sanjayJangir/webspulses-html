@@ -49762,3 +49762,8 @@ li.setup-process-item:not(:last-child):before {
 
 /*# sourceMappingURL=scss */
 /*# sourceMappingURL=main.css.map */
+
+
+.footer-single-col .footer-single-col  img {
+  max-width: 320px;
+}
